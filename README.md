@@ -16,7 +16,7 @@
   with undefined is that it does  not actually tell you what the error is. So often you end 
   up with code like this:
   
-  `
+  ```
   const config = parseConfig(configJson);
   if (!config) {
     log.error("Could not parse config json.");
@@ -25,7 +25,7 @@
   cont bmi = calcBMI(87, 185, config);
   if (!bmi) console.log("Could not calculate BMI.");
   else console.log("Your BMI is "+ bmi +".");
-  `
+  ```
   
   You can see that the above code requires more code and is less informative. There could
   be many different reasons the json does not parse or your BMI could not be calculated,
