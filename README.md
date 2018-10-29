@@ -1,8 +1,9 @@
 # BMI-calculator
 
   The Result monad is an attractive alternative to exceptions or other styles
-  of error handling. The reasons:
+  of error handling.
   
+  The reasons:
   1. Type-safety. It is literally impossible to forget to handle the error case.
   2. Composability. Through flatMap you can easily compose your error handling,
   such that all error handling can be chained to a single expression.
