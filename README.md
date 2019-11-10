@@ -1,4 +1,6 @@
   # BMI-calculator
+  
+  Body mass index (BMI) is a measure of body fat based on height and weight that applies to adult men and women.
 
   The Result monad is an attractive alternative to exceptions or other styles
   of error handling.
